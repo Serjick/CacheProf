@@ -1,0 +1,9 @@
+<?php
+
+define('CURRENT_DATE', date('Y-m-d'));
+
+define('CACHE_STORAGE_MEMCACHE', 1);
+define('CACHE_STORAGE_MEMCACHED', 2);
+define('CACHE_STORAGE_DEFAULT', CACHE_STORAGE_MEMCACHED);
+
+define('CLI_CARRIAGE_RETURN', "\r\e[0K");

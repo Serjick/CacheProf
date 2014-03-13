@@ -114,7 +114,7 @@ class Fixtures implements \Iterator
 
     private function getLimit()
     {
-        return floor(log10($this->i % 10 + 1) * 50 + 1);
+        return floor(log10($this->i % 10 + 1) * \FIXTURES_LIMIT_COEF + 1);
     }
 
     /**
